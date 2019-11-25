@@ -1275,8 +1275,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="43.434" y1="14.224" x2="43.45" y2="14.22" width="0.4064" layer="1"/>
 </signal>
 <signal name="OLED_VCC">
-<contactref element="U$2" pad="2"/>
 <contactref element="J1" pad="1"/>
+<contactref element="U$2" pad="2"/>
 <wire x1="24.13" y1="58.42" x2="21.59" y2="55.88" width="0.6096" layer="1"/>
 <wire x1="30.48" y1="58.42" x2="24.13" y2="58.42" width="0.6096" layer="1"/>
 </signal>
@@ -1308,26 +1308,49 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="5,1,b6e1fe440662ce88"/>
-<approved hash="5,1,d166a1c43662c68f"/>
-<approved hash="5,1,16cf276902b07dec"/>
-<approved hash="5,1,163f131136387d9c"/>
-<approved hash="5,1,f9573f51fd1175db"/>
-<approved hash="5,1,e6cf3685eb6d75eb"/>
-<approved hash="5,1,e63707a3da4b7527"/>
-<approved hash="5,1,e1b70bc9d1a975eb"/>
-<approved hash="5,1,e63f1de7c087759f"/>
-<approved hash="5,1,b83b9eccab0dc536"/>
-<approved hash="5,1,ff52b2840249bbfe"/>
-<approved hash="5,1,dd5794840649bbfb"/>
-<approved hash="5,1,5e4ca6f24b79db31"/>
-<approved hash="5,1,3cf8a6fa4b09b9fd"/>
-<approved hash="5,1,b3599ec4ab09ce54"/>
-<approved hash="5,1,41d6a6fa4b0dc4db"/>
-<approved hash="5,1,1637092d2cfc7d1c"/>
-<approved hash="5,1,e6b3fd9b15fbfafc"/>
-<approved hash="5,1,aab3698917e920fc"/>
-<approved hash="5,1,556ea6ca4b3dd053"/>
+<approved hash="8,1,7512c69e18940500"/>
+<approved hash="8,1,223b74258e35243a"/>
+<approved hash="8,1,63c1c843cf56dfbc"/>
+<approved hash="8,1,1500640dbb7e154a"/>
+<approved hash="8,1,d1fcc21da868b823"/>
+<approved hash="8,1,918a4b02701fd308"/>
+<approved hash="8,1,cf5f4e386ef35a5d"/>
+<approved hash="8,1,cc70e3bf2c758c45"/>
+<approved hash="8,1,d95efe3ee2f5898f"/>
+<approved hash="5,1,e9b72a6a244ac9ec"/>
+<approved hash="5,1,ee3726002fa8c920"/>
+<approved hash="5,1,ee3f235e2a06c99c"/>
+<approved hash="5,1,ee37396230c2c91c"/>
+<approved hash="5,1,e93732f83b20ce00"/>
+<approved hash="5,1,aecf277366bbc1ec"/>
+<approved hash="5,1,a9b71a3f5c7fc1ec"/>
+<approved hash="5,1,ae371655579dc120"/>
+<approved hash="5,1,ae3f0c114d51c198"/>
+<approved hash="5,1,ae37093748f7c11c"/>
+<approved hash="5,1,a6b36c439c23a2fc"/>
+<approved hash="5,1,2eb3f449d829defc"/>
+<approved hash="5,1,af0f7fc33fabc18c"/>
+<approved hash="5,1,dab3e8787a1884fc"/>
+<approved hash="5,1,461593c40e7363ed"/>
+<approved hash="5,1,86f93443f8b50237"/>
+<approved hash="5,1,eecf17261e8ec9ec"/>
+<approved hash="5,1,ef0f11cc19ecc9a8"/>
+<approved hash="5,1,ef0f4f96479ec98c"/>
+<approved hash="5,1,b1572ea770c7c1dc"/>
+<approved hash="5,1,af172bdd6be5c020"/>
+<approved hash="5,1,a93702ad4315c600"/>
+<approved hash="5,1,eab3684eb62ec0fc"/>
+<approved hash="5,1,cf9718e8c02bfb7c"/>
+<approved hash="5,1,d8201e89cf9ee517"/>
+<approved hash="5,1,e59130440e7363e9"/>
+<approved hash="8,1,d3768c5c0eee0e02"/>
+<approved hash="8,1,b3a92c38c693da1c"/>
+<approved hash="8,1,02c70466b83985a9"/>
+<approved hash="8,1,536dcbe7d979f012"/>
+<approved hash="8,1,97a4676688512f70"/>
+<approved hash="8,1,892c1f1fbcd98088"/>
+<approved hash="8,1,8c8505a4bd65099f"/>
+<approved hash="8,1,e17b469facfdd8e0"/>
 </errors>
 </board>
 </drawing>

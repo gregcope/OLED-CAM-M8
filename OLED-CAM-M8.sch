@@ -4092,14 +4092,14 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 </net>
 <net name="OLED_VCC" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="VCC"/>
-<wire x1="124.46" y1="137.16" x2="134.62" y2="137.16" width="0.1524" layer="91"/>
-<label x="134.62" y="137.16" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="137.16" x2="228.6" y2="137.16" width="0.1524" layer="91"/>
 <label x="228.6" y="137.16" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="VCC"/>
+<wire x1="124.46" y1="137.16" x2="134.62" y2="137.16" width="0.1524" layer="91"/>
+<label x="134.62" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -4152,11 +4152,10 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <approved hash="104,1,99.06,17.78,U$5,GND$14,GND,,,"/>
 <approved hash="202,1,53.34,38.1,U$5,!SAFEBOOT,,,,"/>
 <approved hash="202,1,203.2,33.02,LDO,BP,,,,"/>
-<approved hash="113,1,215.223,120.718,JST,,,,,"/>
+<approved hash="104,1,124.46,137.16,U$2,VCC,OLED_VCC,,,"/>
 <approved hash="113,1,121.109,75.2263,INT_A,,,,,"/>
 <approved hash="113,1,136.622,75.2263,EXT_A,,,,,"/>
-<approved hash="113,1,146.643,138.498,JST1,,,,,"/>
-<approved hash="115,1,172.72,43.18,LIPO,,,,,"/>
+<approved hash="113,1,215.223,152.468,J1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
