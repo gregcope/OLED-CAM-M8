@@ -3748,6 +3748,7 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <part name="EXT_A" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
 <part name="U$2" library="diy-modules" deviceset="DISPLAY-OLED-128X64-I2C" device=""/>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_12" device="" package3d_urn="urn:adsk.eagle:package:38169/1"/>
+<part name="U$1" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.0"/>
 </parts>
 <sheets>
 <sheet>
@@ -3837,6 +3838,7 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <attribute name="VALUE" x="208.28" y="132.334" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="208.28" y="168.148" size="1.778" layer="95" font="vector"/>
 </instance>
+<instance part="U$1" gate="G$1" x="147.32" y="7.62" smashed="yes"/>
 </instances>
 <busses>
 </busses>

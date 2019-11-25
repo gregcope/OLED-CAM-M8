@@ -1076,6 +1076,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="29.21" y="59.817" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="29.21" y="56.388" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
+<element name="U$1" library="microbuilder" package="MOUNTINGHOLE_2.0_PLATED" value="MOUNTINGHOLE2.0" x="65.024" y="11.557" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1274,8 +1275,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="57.15" y="13.97" extent="1-16" drill="0.508"/>
 <via x="60.96" y="13.97" extent="1-16" drill="0.508"/>
 <via x="60.96" y="10.16" extent="1-16" drill="0.508"/>
-<via x="64.77" y="10.16" extent="1-16" drill="0.508"/>
-<via x="64.77" y="13.97" extent="1-16" drill="0.508"/>
 <via x="68.58" y="13.97" extent="1-16" drill="0.508"/>
 <via x="68.58" y="10.16" extent="1-16" drill="0.508"/>
 <via x="72.39" y="10.16" extent="1-16" drill="0.508"/>
