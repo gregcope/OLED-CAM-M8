@@ -3708,7 +3708,7 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 </libraries>
 <attributes>
 <attribute name="CNAME" value="OLED-CAM-M8"/>
-<attribute name="CREVISION" value="0.2"/>
+<attribute name="CREVISION" value="0.4"/>
 <attribute name="DESIGNER" value="gregcope@gmail.com"/>
 </attributes>
 <variantdefs>
@@ -3754,10 +3754,13 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <sheet>
 <plain>
 <text x="101.6" y="162.56" size="3.048" layer="94" ratio="12">Greg Cope</text>
-<text x="189.23" y="167.64" size="3.048" layer="94" ratio="12">R0.2</text>
+<text x="189.23" y="167.64" size="3.048" layer="94" ratio="12">R0.4</text>
 <text x="101.6" y="167.64" size="4.572" layer="94" ratio="15">MoteinoM0 AboatMon Shield</text>
 <text x="187.96" y="25.4" size="1.27" layer="91">Consider MCP1810 lower shutdown current 1na</text>
 <text x="116.84" y="106.68" size="1.778" layer="91">Part: DISPLAY-OLED-128X64-I2C</text>
+<text x="121.92" y="144.78" size="1.778" layer="91">GND AND VCC are reversed on
+the parts avaliable... 
+Check the actual part!!!</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -3913,14 +3916,14 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <wire x1="157.48" y1="58.42" x2="157.48" y2="54.61" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="GND"/>
-<wire x1="124.46" y1="139.7" x2="134.62" y2="139.7" width="0.1524" layer="91"/>
-<label x="134.62" y="139.7" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J1" gate="G$1" pin="12"/>
 <wire x1="218.44" y1="165.1" x2="228.6" y2="165.1" width="0.1524" layer="91"/>
 <label x="228.6" y="165.1" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="VCC"/>
+<wire x1="124.46" y1="137.16" x2="134.62" y2="137.16" width="0.1524" layer="91"/>
+<label x="134.62" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="3.3V" class="2">
@@ -4099,9 +4102,9 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <label x="228.6" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="VCC"/>
-<wire x1="124.46" y1="137.16" x2="134.62" y2="137.16" width="0.1524" layer="91"/>
-<label x="134.62" y="137.16" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="GND"/>
+<wire x1="124.46" y1="139.7" x2="134.62" y2="139.7" width="0.1524" layer="91"/>
+<label x="134.62" y="139.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -4162,6 +4165,10 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

@@ -147,7 +147,7 @@
 </layers>
 <board>
 <plain>
-<text x="51.181" y="20.447" size="1.778" layer="26">v0.2
+<text x="51.181" y="20.447" size="1.778" layer="26">v0.4
 gregcope@gmail.com
 OLED-CAM-M8</text>
 <wire x1="11.43" y1="0" x2="77.47" y2="0" width="0.1524" layer="20"/>
@@ -1152,7 +1152,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </polygon>
 <contactref element="J5" pad="2"/>
 <contactref element="J5" pad="1"/>
-<contactref element="U$2" pad="1"/>
 <contactref element="J1" pad="12"/>
 <via x="38.1" y="11.43" extent="1-16" drill="0.508"/>
 <via x="45.72" y="21.59" extent="1-16" drill="0.508"/>
@@ -1360,7 +1359,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="76.2" y="59.69" extent="1-16" drill="0.508"/>
 <via x="76.2" y="55.88" extent="1-16" drill="0.508"/>
 <via x="15.24" y="59.69" extent="1-16" drill="0.508"/>
-<via x="19.05" y="59.69" extent="1-16" drill="0.508"/>
 <via x="11.43" y="59.69" extent="1-16" drill="0.508"/>
 <via x="57.15" y="48.26" extent="1-16" drill="0.508"/>
 <via x="57.15" y="52.07" extent="1-16" drill="0.508"/>
@@ -1374,7 +1372,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="72.39" y="52.07" extent="1-16" drill="0.508"/>
 <via x="76.2" y="52.07" extent="1-16" drill="0.508"/>
 <via x="76.2" y="48.26" extent="1-16" drill="0.508"/>
-<via x="22.86" y="59.69" extent="1-16" drill="0.508"/>
 <via x="80.01" y="48.26" extent="1-16" drill="0.508"/>
 <via x="52.07" y="55.88" extent="1-16" drill="0.508"/>
 <via x="52.07" y="48.26" extent="1-16" drill="0.508"/>
@@ -1422,6 +1419,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="76.2" y="40.64" extent="1-16" drill="0.508"/>
 <via x="80.01" y="44.45" extent="1-16" drill="0.508"/>
 <via x="80.01" y="40.64" extent="1-16" drill="0.508"/>
+<contactref element="U$2" pad="2"/>
+<via x="19.05" y="59.69" extent="1-16" drill="0.508"/>
+<via x="22.86" y="59.69" extent="1-16" drill="0.508"/>
+<via x="26.67" y="59.69" extent="1-16" drill="0.508"/>
 </signal>
 <signal name="3.3V" class="2">
 <contactref element="U$5" pad="8"/>
@@ -1552,9 +1553,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </signal>
 <signal name="OLED_VCC">
 <contactref element="J1" pad="1"/>
-<contactref element="U$2" pad="2"/>
-<wire x1="24.13" y1="58.42" x2="21.59" y2="55.88" width="0.6096" layer="1"/>
-<wire x1="30.48" y1="58.42" x2="24.13" y2="58.42" width="0.6096" layer="1"/>
+<contactref element="U$2" pad="1"/>
+<wire x1="19.05" y1="57.404" x2="19.05" y2="55.88" width="0.6096" layer="16"/>
+<wire x1="19.812" y1="58.166" x2="19.05" y2="57.404" width="0.6096" layer="16"/>
+<wire x1="28.702" y1="58.166" x2="19.812" y2="58.166" width="0.6096" layer="16"/>
+<wire x1="28.956" y1="58.42" x2="28.702" y2="58.166" width="0.6096" layer="16"/>
+<wire x1="30.48" y1="58.42" x2="28.956" y2="58.42" width="0.6096" layer="16"/>
 </signal>
 <signal name="SCL">
 <contactref element="U$2" pad="3"/>
