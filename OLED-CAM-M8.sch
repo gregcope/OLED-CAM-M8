@@ -3720,8 +3720,8 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <class number="1" name="power" width="0.6096" drill="0">
 <clearance class="1" value="0.4064"/>
 </class>
-<class number="2" name="gns" width="0.4064" drill="0">
-<clearance class="2" value="0.4064"/>
+<class number="2" name="gns" width="0.3048" drill="0">
+<clearance class="2" value="0.3048"/>
 </class>
 </classes>
 <parts>
@@ -3929,9 +3929,9 @@ Check the actual part!!!</text>
 <label x="91.44" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="218.44" y1="144.78" x2="228.6" y2="144.78" width="0.1524" layer="91"/>
-<label x="228.6" y="144.78" size="1.27" layer="95" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="4"/>
+<pinref part="J1" gate="G$1" pin="7"/>
+<wire x1="218.44" y1="152.4" x2="228.6" y2="152.4" width="0.1524" layer="91"/>
+<label x="228.6" y="152.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TX_GNS" class="0">
@@ -4141,10 +4141,11 @@ Check the actual part!!!</text>
 <approved hash="104,1,99.06,17.78,U$5,GND$14,GND,,,"/>
 <approved hash="202,1,53.34,38.1,U$5,!SAFEBOOT,,,,"/>
 <approved hash="202,1,203.2,33.02,LDO,BP,,,,"/>
-<approved hash="104,1,124.46,137.16,U$2,VCC,OLED_VCC,,,"/>
-<approved hash="113,1,121.109,75.2263,INT_A,,,,,"/>
-<approved hash="113,1,136.622,75.2263,EXT_A,,,,,"/>
-<approved hash="113,1,215.223,152.468,J1,,,,,"/>
+<approved hash="104,1,124.46,139.7,U$2,GND,OLED_VCC,,,"/>
+<approved hash="104,1,124.46,137.16,U$2,VCC,GND,,,"/>
+<approved hash="113,1,121.078,75.2263,INT_A,,,,,"/>
+<approved hash="113,1,136.591,75.2263,EXT_A,,,,,"/>
+<approved hash="113,1,215.223,152.437,J1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
