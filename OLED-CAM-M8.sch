@@ -3741,14 +3741,12 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <part name="C4" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="4.7UF" device="0603" package3d_urn="urn:adsk.eagle:package:37414/1" value="4.7uF"/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN"/>
-<part name="U$9" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.0"/>
 <part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="U.FL2PIN" device="" package3d_urn="urn:adsk.eagle:package:38237/1" value="U.FL"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="INT_A" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
 <part name="EXT_A" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
 <part name="U$2" library="diy-modules" deviceset="DISPLAY-OLED-128X64-I2C" device=""/>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_12" device="" package3d_urn="urn:adsk.eagle:package:38169/1"/>
-<part name="U$1" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.0"/>
 </parts>
 <sheets>
 <sheet>
@@ -3818,7 +3816,6 @@ Check the actual part!!!</text>
 <attribute name="NAME" x="30.988" y="49.149" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="30.988" y="43.815" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="U$9" gate="G$1" x="154.94" y="7.62" smashed="yes"/>
 <instance part="J5" gate="G$1" x="157.48" y="63.5" smashed="yes">
 <attribute name="NAME" x="154.94" y="58.42" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="165.1" y="58.42" size="1.778" layer="96" rot="R90"/>
@@ -3841,7 +3838,6 @@ Check the actual part!!!</text>
 <attribute name="VALUE" x="208.28" y="132.334" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="208.28" y="168.148" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="U$1" gate="G$1" x="147.32" y="7.62" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -4081,18 +4077,6 @@ Check the actual part!!!</text>
 <pinref part="J1" gate="G$1" pin="8"/>
 <wire x1="218.44" y1="154.94" x2="228.6" y2="154.94" width="0.1524" layer="91"/>
 <label x="228.6" y="154.94" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="LNA_EN" class="2">
-<segment>
-<pinref part="U$5" gate="G$1" pin="LNA_EN"/>
-<wire x1="111.76" y1="50.8" x2="121.92" y2="50.8" width="0.1524" layer="91"/>
-<label x="121.92" y="50.8" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="7"/>
-<wire x1="218.44" y1="152.4" x2="228.6" y2="152.4" width="0.1524" layer="91"/>
-<label x="228.6" y="152.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="OLED_VCC" class="0">
